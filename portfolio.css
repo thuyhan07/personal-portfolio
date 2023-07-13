@@ -417,10 +417,10 @@ nav {
 }
 
 .contact {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 0;
 }
 
 .contact-content {
@@ -430,6 +430,7 @@ nav {
     width: 60%;
     background-color: white;
     padding: 50px;
+    margin: 0 auto;
 }
 
 .contact-submit {
@@ -459,6 +460,7 @@ nav {
     padding: 5px 10px;
     border: 1px solid grey;
     font-size: 15px;
+    font-family: sans-serif;
 }
 
 .contact-submit button {
@@ -520,8 +522,8 @@ nav {
 
 .socials i:hover {
     background-color:#473a37;
-    color: #bba481;
-    border-color: #bba481;
+    color: white;
+    border-color: #8b7068;
 }
 
 .contact h1::after {
