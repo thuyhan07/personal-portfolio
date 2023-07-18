@@ -1,0 +1,203 @@
+/*
+    PC từ 1024px trở lên – min-width: 1024px;
+    Ipad từ 740px trở lên – min-width: 740 max-width: 1023px;
+    Mobile từ 739px trở xuống – max-width: 739px;
+*/
+
+/* PC */
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-options {
+        padding: 0;
+    }
+
+    .about-info {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .about-info-text p {
+        padding: 0;
+    }
+
+    .about-description {
+        padding-right: 0;
+    }
+    
+    .hobbies-description {
+        min-height: 80px;
+        max-height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .achievement-item h2, .achievement-item h3 {
+        text-align: center;
+    }
+
+    .review-content {
+        width: 90%;
+    }
+
+    .hobbies-items img {
+        height: 140px;
+    }
+}
+/* Ipad/tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-options {
+        padding: 0;
+    }
+
+    .nav-opt a {
+        padding: 0 30px;
+    }
+
+    .about-info {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .about-info-text p {
+        padding: 0;
+    }
+
+    .about-description {
+        padding-right: 0;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-introduction {
+        padding-bottom: 0;
+    }
+
+    .about-introduction, .about-content, .about-description {
+        width: 90%;
+    }
+
+    .about-description {
+        padding-top: 0;
+    }
+
+    .about-info img {
+        margin: 0 auto;
+    }
+
+    .hobbies-description {
+        min-height: 80px;
+        max-height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .achievements {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .achievement-item h2 {
+        height: 62px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .achievement-item h2, .achievement-item h3 {
+        text-align: center;
+    }
+
+    .review-content {
+        width: 90%;
+    }
+
+    .stats-item {
+        max-width: 70%;
+        min-width: 70%;
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .my-stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        height: 1200px;
+    }
+
+    .hobbies-selection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hobbies-items {
+        width: 45%
+    }
+
+    .hobbies {
+        height: auto;
+        padding: 50px;
+    }
+
+    .hobbies-items img {
+        min-height: 160px;
+        max-height: 150px;
+    }
+
+    .hobbies {
+        margin: 0;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact-submit, .contact-info {
+        width: 100%;
+    }
+
+    .contact-submit input {
+        width: 100%;
+        box-sizing: border-box;
+        height: 40px;
+    }
+
+    .contact-info p {
+        width: 100%;
+    }
+
+    .socials {
+        margin: 0 auto;
+    }
+
+    .contact-submit textarea {
+        max-width: 100%;
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+
+}
